@@ -32,3 +32,13 @@ scoop install ffmpeg
 For more information on Whisper please see https://github.com/openai/whisper
 
 The code in this repository is public domain.
+
+## Usage on Mac M1
+
+`brew install portaudio`
+
+then install the requirements
+
+then run the following:
+
+`python transcribe_demo.py --default_microphone "MacBook Pro Speakers" --non_english`
